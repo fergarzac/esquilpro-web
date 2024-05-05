@@ -6,15 +6,14 @@
 
     <!-- SEO Meta Tags -->
     <meta name="description" content="Plataforma de servicios a domicilio en La Paz, Baja California Sur" />
-    <meta name="author" content="Your name" />
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
-    <meta property="og:site_name" content="" /> <!-- website name -->
-    <meta property="og:site" content="" /> <!-- website link -->
-    <meta property="og:title" content="" /> <!-- title shown in the actual shared post -->
-    <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+    <meta property="og:site_name" content="Esquilpro" /> <!-- website name -->
+    <meta property="og:site" content="https://esquilpro.com" /> <!-- website link -->
+    <meta property="og:title" content="Esquilpro - Servicios a Domicilio" /> <!-- title shown in the actual shared post -->
+    <meta property="og:description" content="Plataforma de servicios a domicilio en La Paz, Baja California Sur" /> <!-- description shown in the actual shared post -->
     <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-    <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+    <meta property="og:url" content="https://esquilpro.com" /> <!-- where do you want your post to link to -->
     <meta name="twitter:card" content="summary_large_image" /> <!-- to have large image post format in Twitter -->
 
     <!-- Webpage Title -->
@@ -27,6 +26,7 @@
     <link href="css/swiper.css" rel="stylesheet" />
     <link href="css/magnific-popup.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
+    <link ref="canonical" href="https://esquilpro.com/">
     @vite('resources/js/app.js')
 
     <!-- Favicon  -->
@@ -105,11 +105,10 @@
 
 
 <!-- Features -->
-<div id="servicios" class="cards-1">
-    <div class="container px-4 sm:px-8 xl:px-4 grid grid-rows-3 grid-cols-3">
-
+<div id="servicios" class="cards-1 pt-[2rem] pb-[1rem] md:pt-[4rem] md:pb-[1.5rem]">
+    <div class="container px-4 xl:px-4 grid grid-cols-1 md:grid-rows-3 md:grid-cols-3">
         <!-- Card -->
-        <div class="card">
+        <div class="card mb-[1rem] md:mb-[3.5rem] md:min-w-[400px]">
             <div class="card-image">
                 <img src="images/services/pintura.jpeg" alt="pintura" />
             </div>
@@ -123,7 +122,7 @@
         <!-- end of card -->
 
         <!-- Card -->
-        <div class="card">
+        <div class="card mb-[1rem] md:mb-[3.5rem] md:min-w-[400px]">
             <div class="card-image">
                 <img src="images/services/impermeabilizacion.jpg" alt="impermeabilizacion" />
             </div>
@@ -137,7 +136,7 @@
         <!-- end of card -->
 
         <!-- Card -->
-        <div class="card">
+        <div class="card mb-[1rem] md:mb-[3.5rem] md:min-w-[400px]">
             <div class="card-image">
                 <img src="images/services/tablaroca.jpg" alt="Tablaroca" />
             </div>
@@ -151,7 +150,7 @@
         <!-- end of card -->
 
         <!-- Card -->
-        <div class="card">
+        <div class="card mb-[1rem] md:mb-[3.5rem] md:min-w-[400px]">
             <div class="card-image">
                 <img src="images/services/plomeria.jpeg" alt="plomeria" />
             </div>
@@ -180,7 +179,7 @@
         <!-- end of card -->
 
         <!-- Card -->
-        <div class="card">
+        <div class="card mb-[1rem] md:mb-[3.5rem] md:min-w-[400px]">
             <div class="card-image">
                 <img src="images/services/pipas-de-agua.jpeg" alt="pipas-de-agua" />
             </div>
@@ -194,7 +193,7 @@
         </div>
         <!-- end of card -->
         <!-- Card -->
-        <div class="card">
+        <div class="card mb-[1rem] md:mb-[3.5rem] md:min-w-[400px]">
             <div class="card-image">
                 <img src="images/services/sonido-iluminacion.jpeg" alt="sonido-iluminacion" />
             </div>
